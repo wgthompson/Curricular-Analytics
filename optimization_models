@@ -1,0 +1,6 @@
+def generate_curricularoute(majors, start_semester, end_semester):
+  results = []
+  for major in majors:
+    for semester in range(start_semester, end_semester):
+      results.append((major, semester))
+return results
